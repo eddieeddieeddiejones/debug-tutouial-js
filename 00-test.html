@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script>
+	// console.trace
+	// 打印函数调用逻辑
+	var f = function() { g(); } 
+	var g = function() { h(); }
+	var h = function() { console.trace('trace in h'); }
+	f()
+</script>	
+</body>
+</html>
