@@ -1,10 +1,10 @@
 
 ## debug
 - 在浏览器内，F12打开控制台，切换到 Sources Tab内  
-  Pause/Resume script execution：暂停/恢复脚本执行（程序执行到下一断点停止）。F8
-  Step over next function call：执行到下一步的函数调用（跳到下一行）。F10  
-  Step into next function call：进入当前函数。F11  
-  Step out of current function：跳出当前执行函数。shift +F11  
+  - Pause/Resume script execution：暂停/恢复脚本执行（程序执行到下一断点停止）。F8
+  - Step over next function call：执行到下一步的函数调用（跳到下一行）。F10  
+  - Step into next function call：进入当前函数。F11  
+  - Step out of current function：跳出当前执行函数。shift +F11  
 
 - console.trace,打印函数调用顺序  
 
